@@ -2,6 +2,8 @@
 # http://getfireshell.com
 # @author Todd Motto
 
+utils/env
+
 ## FireShell
 style.min.css
 style.unprefixed.css

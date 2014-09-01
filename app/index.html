@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js">
+<html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
     <title>FireShell by @toddmotto</title>
@@ -13,26 +13,27 @@
     <link href="assets/css/style.min.css" rel="stylesheet">
 
     <script src="assets/components/modernizr.js"></script>
+    <script src="assets/components/underscore.js"></script>
 
   </head>
   <body>
 
     <header class="header" role="banner">
-      <div class="logo">
-        <a href="/">
-          <img src="assets/img/logo.svg" alt="Logo">
-        </a>
-      </div>
-      <nav class="nav" role="navigation">
-        <ul>
-          <li>
-            <a href="/"></a>
-          </li>
-        </ul>
-      </nav>
+      <h1>Celebrity Couple Nicknames</h1>
     </header>
 
     <main class="main" role="main">
+      <p>Everyone wants a cute couple nickname. Find out which names you're compatible with so you can be like Brangelina, Kimye, and Everlark!</p>
+
+      <h2>Find your matches!</h2>
+      <label>Enter your first name: <input type="text" name="name"></label>
+      <button type="button" id="findMatches">Submit</button>
+
+      <h2>Have someone in mind?</h2>
+      <p>Enter your names for cute name suggestions!</p>
+      <label>Enter a name: <input type="text" name="name1"></label>
+      <label>Enter a name: <input type="text" name="name2"></label>
+      <button type="button" id="compareNames">Submit</button>
 
     </main>
 

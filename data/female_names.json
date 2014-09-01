@@ -1,0 +1,3250 @@
+{
+    "aaliyah": {
+        "name": "Aaliyah",
+        "syllables": [
+            "Aa",
+            "liy",
+            "ah"
+        ]
+    },
+    "abby": {
+        "name": "Abby",
+        "syllables": [
+            "Abb",
+            "y"
+        ]
+    },
+    "abigail": {
+        "name": "Abigail",
+        "syllables": [
+            "Ab",
+            "i",
+            "gail"
+        ]
+    },
+    "addison": {
+        "name": "Addison",
+        "syllables": [
+            "Add",
+            "i",
+            "son"
+        ]
+    },
+    "adriana": {
+        "name": "Adriana",
+        "syllables": [
+            "Ad",
+            "ria",
+            "na"
+        ]
+    },
+    "adrianna": {
+        "name": "Adrianna",
+        "syllables": [
+            "Ad",
+            "ri",
+            "ann",
+            "a"
+        ]
+    },
+    "adrienne": {
+        "name": "Adrienne",
+        "syllables": [
+            "Ad",
+            "ri",
+            "enne"
+        ]
+    },
+    "aimee": {
+        "name": "Aimee",
+        "syllables": [
+            "Ai",
+            "mee"
+        ]
+    },
+    "alana": {
+        "name": "Alana",
+        "syllables": [
+            "A",
+            "lan",
+            "a"
+        ]
+    },
+    "alejandra": {
+        "name": "Alejandra",
+        "syllables": [
+            "A",
+            "le",
+            "jan",
+            "dra"
+        ]
+    },
+    "alexa": {
+        "name": "Alexa",
+        "syllables": [
+            "A",
+            "lex",
+            "a"
+        ]
+    },
+    "alexandra": {
+        "name": "Alexandra",
+        "syllables": [
+            "A",
+            "lex",
+            "andra"
+        ]
+    },
+    "alexandria": {
+        "name": "Alexandria",
+        "syllables": [
+            "Al",
+            "ex",
+            "an",
+            "dri",
+            "a"
+        ]
+    },
+    "alexia": {
+        "name": "Alexia",
+        "syllables": [
+            "A",
+            "lex",
+            "i",
+            "a"
+        ]
+    },
+    "alexis": {
+        "name": "Alexis",
+        "syllables": [
+            "A",
+            "lex",
+            "is"
+        ]
+    },
+    "alice": {
+        "name": "Alice",
+        "syllables": [
+            "Al",
+            "ice"
+        ]
+    },
+    "alicia": {
+        "name": "Alicia",
+        "syllables": [
+            "A",
+            "li",
+            "cia"
+        ]
+    },
+    "alisha": {
+        "name": "Alisha",
+        "syllables": [
+            "A",
+            "lish",
+            "a"
+        ]
+    },
+    "alison": {
+        "name": "Alison",
+        "syllables": [
+            "Al",
+            "i",
+            "son"
+        ]
+    },
+    "allison": {
+        "name": "Allison",
+        "syllables": [
+            "All",
+            "i",
+            "son"
+        ]
+    },
+    "alondra": {
+        "name": "Alondra",
+        "syllables": [
+            "A",
+            "lon",
+            "dra"
+        ]
+    },
+    "alyssa": {
+        "name": "Alyssa",
+        "syllables": [
+            "A",
+            "lyss",
+            "a"
+        ]
+    },
+    "amanda": {
+        "name": "Amanda",
+        "syllables": [
+            "A",
+            "man",
+            "da"
+        ]
+    },
+    "amber": {
+        "name": "Amber",
+        "syllables": [
+            "Am",
+            "ber"
+        ]
+    },
+    "amelia": {
+        "name": "Amelia",
+        "syllables": [
+            "A",
+            "me",
+            "li",
+            "a"
+        ]
+    },
+    "amy": {
+        "name": "Amy",
+        "syllables": [
+            "A",
+            "my"
+        ]
+    },
+    "ana": {
+        "name": "Ana",
+        "syllables": [
+            "A",
+            "na"
+        ]
+    },
+    "andrea": {
+        "name": "Andrea",
+        "syllables": [
+            "An",
+            "dre",
+            "a"
+        ]
+    },
+    "angel": {
+        "name": "Angel",
+        "syllables": [
+            "An",
+            "gel"
+        ]
+    },
+    "angela": {
+        "name": "Angela",
+        "syllables": [
+            "An",
+            "gel",
+            "a"
+        ]
+    },
+    "angelica": {
+        "name": "Angelica",
+        "syllables": [
+            "An",
+            "gel",
+            "i",
+            "ca"
+        ]
+    },
+    "angelina": {
+        "name": "Angelina",
+        "syllables": [
+            "An",
+            "ge",
+            "li",
+            "na"
+        ]
+    },
+    "angie": {
+        "name": "Angie",
+        "syllables": [
+            "An",
+            "gie"
+        ]
+    },
+    "anita": {
+        "name": "Anita",
+        "syllables": [
+            "A",
+            "ni",
+            "ta"
+        ]
+    },
+    "ann": {
+        "name": "Ann",
+        "syllables": [
+            "Ann"
+        ]
+    },
+    "anna": {
+        "name": "Anna",
+        "syllables": [
+            "Ann",
+            "a"
+        ]
+    },
+    "anne": {
+        "name": "Anne",
+        "syllables": [
+            "Anne"
+        ]
+    },
+    "annette": {
+        "name": "Annette",
+        "syllables": [
+            "A",
+            "nnette"
+        ]
+    },
+    "april": {
+        "name": "April",
+        "syllables": [
+            "A",
+            "pril"
+        ]
+    },
+    "ariana": {
+        "name": "Ariana",
+        "syllables": [
+            "Ar",
+            "i",
+            "an",
+            "a"
+        ]
+    },
+    "arianna": {
+        "name": "Arianna",
+        "syllables": [
+            "A",
+            "rian",
+            "na"
+        ]
+    },
+    "ariel": {
+        "name": "Ariel",
+        "syllables": [
+            "Ar",
+            "i",
+            "el"
+        ]
+    },
+    "ashlee": {
+        "name": "Ashlee",
+        "syllables": [
+            "Ash",
+            "lee"
+        ]
+    },
+    "ashley": {
+        "name": "Ashley",
+        "syllables": [
+            "Ash",
+            "ley"
+        ]
+    },
+    "ashlyn": {
+        "name": "Ashlyn",
+        "syllables": [
+            "Ash",
+            "lyn"
+        ]
+    },
+    "aubrey": {
+        "name": "Aubrey",
+        "syllables": [
+            "Aub",
+            "rey"
+        ]
+    },
+    "audrey": {
+        "name": "Audrey",
+        "syllables": [
+            "Aud",
+            "rey"
+        ]
+    },
+    "autumn": {
+        "name": "Autumn",
+        "syllables": [
+            "Au",
+            "tumn"
+        ]
+    },
+    "ava": {
+        "name": "Ava",
+        "syllables": [
+            "A",
+            "va"
+        ]
+    },
+    "avery": {
+        "name": "Avery",
+        "syllables": [
+            "A",
+            "ver",
+            "y"
+        ]
+    },
+    "bailey": {
+        "name": "Bailey",
+        "syllables": [
+            "Bai",
+            "ley"
+        ]
+    },
+    "barbara": {
+        "name": "Barbara",
+        "syllables": [
+            "Bar",
+            "bar",
+            "a"
+        ]
+    },
+    "becky": {
+        "name": "Becky",
+        "syllables": [
+            "Beck",
+            "y"
+        ]
+    },
+    "belinda": {
+        "name": "Belinda",
+        "syllables": [
+            "Be",
+            "lin",
+            "da"
+        ]
+    },
+    "beth": {
+        "name": "Beth",
+        "syllables": [
+            "Beth"
+        ]
+    },
+    "bethany": {
+        "name": "Bethany",
+        "syllables": [
+            "Beth",
+            "a",
+            "ny"
+        ]
+    },
+    "betty": {
+        "name": "Betty",
+        "syllables": [
+            "Bett",
+            "y"
+        ]
+    },
+    "beverly": {
+        "name": "Beverly",
+        "syllables": [
+            "Bev",
+            "er",
+            "ly"
+        ]
+    },
+    "bianca": {
+        "name": "Bianca",
+        "syllables": [
+            "Bian",
+            "ca"
+        ]
+    },
+    "bonnie": {
+        "name": "Bonnie",
+        "syllables": [
+            "Bonn",
+            "ie"
+        ]
+    },
+    "brandi": {
+        "name": "Brandi",
+        "syllables": [
+            "Bran",
+            "di"
+        ]
+    },
+    "brandy": {
+        "name": "Brandy",
+        "syllables": [
+            "Bran",
+            "dy"
+        ]
+    },
+    "breanna": {
+        "name": "Breanna",
+        "syllables": [
+            "Bre",
+            "ann",
+            "a"
+        ]
+    },
+    "brenda": {
+        "name": "Brenda",
+        "syllables": [
+            "Bren",
+            "da"
+        ]
+    },
+    "briana": {
+        "name": "Briana",
+        "syllables": [
+            "Bri",
+            "an",
+            "a"
+        ]
+    },
+    "brianna": {
+        "name": "Brianna",
+        "syllables": [
+            "Bri",
+            "ann",
+            "a"
+        ]
+    },
+    "bridget": {
+        "name": "Bridget",
+        "syllables": [
+            "Bridg",
+            "et"
+        ]
+    },
+    "brittany": {
+        "name": "Brittany",
+        "syllables": [
+            "Britt",
+            "a",
+            "ny"
+        ]
+    },
+    "brittney": {
+        "name": "Brittney",
+        "syllables": [
+            "Britt",
+            "ney"
+        ]
+    },
+    "brooke": {
+        "name": "Brooke",
+        "syllables": [
+            "Brooke"
+        ]
+    },
+    "brooklyn": {
+        "name": "Brooklyn",
+        "syllables": [
+            "Brook",
+            "lyn"
+        ]
+    },
+    "caitlin": {
+        "name": "Caitlin",
+        "syllables": [
+            "Cait",
+            "lin"
+        ]
+    },
+    "caitlyn": {
+        "name": "Caitlyn",
+        "syllables": [
+            "Cait",
+            "lyn"
+        ]
+    },
+    "camila": {
+        "name": "Camila",
+        "syllables": [
+            "Ca",
+            "mi",
+            "la"
+        ]
+    },
+    "candace": {
+        "name": "Candace",
+        "syllables": [
+            "Can",
+            "dace"
+        ]
+    },
+    "candice": {
+        "name": "Candice",
+        "syllables": [
+            "Can",
+            "dice"
+        ]
+    },
+    "carla": {
+        "name": "Carla",
+        "syllables": [
+            "Car",
+            "la"
+        ]
+    },
+    "carly": {
+        "name": "Carly",
+        "syllables": [
+            "Car",
+            "ly"
+        ]
+    },
+    "carmen": {
+        "name": "Carmen",
+        "syllables": [
+            "Car",
+            "men"
+        ]
+    },
+    "carol": {
+        "name": "Carol",
+        "syllables": [
+            "Car",
+            "ol"
+        ]
+    },
+    "caroline": {
+        "name": "Caroline",
+        "syllables": [
+            "Ca",
+            "ro",
+            "line"
+        ]
+    },
+    "carolyn": {
+        "name": "Carolyn",
+        "syllables": [
+            "Car",
+            "o",
+            "lyn"
+        ]
+    },
+    "carrie": {
+        "name": "Carrie",
+        "syllables": [
+            "Carr",
+            "ie"
+        ]
+    },
+    "casey": {
+        "name": "Casey",
+        "syllables": [
+            "Ca",
+            "sey"
+        ]
+    },
+    "cassandra": {
+        "name": "Cassandra",
+        "syllables": [
+            "Ca",
+            "ssan",
+            "dra"
+        ]
+    },
+    "cassidy": {
+        "name": "Cassidy",
+        "syllables": [
+            "Cass",
+            "i",
+            "dy"
+        ]
+    },
+    "cassie": {
+        "name": "Cassie",
+        "syllables": [
+            "Cass",
+            "ie"
+        ]
+    },
+    "catherine": {
+        "name": "Catherine",
+        "syllables": [
+            "Ca",
+            "the",
+            "rine"
+        ]
+    },
+    "cathy": {
+        "name": "Cathy",
+        "syllables": [
+            "Cath",
+            "y"
+        ]
+    },
+    "charlene": {
+        "name": "Charlene",
+        "syllables": [
+            "Char",
+            "lene"
+        ]
+    },
+    "charlotte": {
+        "name": "Charlotte",
+        "syllables": [
+            "Char",
+            "lotte"
+        ]
+    },
+    "chelsea": {
+        "name": "Chelsea",
+        "syllables": [
+            "Chel",
+            "sea"
+        ]
+    },
+    "chelsey": {
+        "name": "Chelsey",
+        "syllables": [
+            "Chel",
+            "sey"
+        ]
+    },
+    "cheryl": {
+        "name": "Cheryl",
+        "syllables": [
+            "Cher",
+            "yl"
+        ]
+    },
+    "cheyenne": {
+        "name": "Cheyenne",
+        "syllables": [
+            "Chey",
+            "enne"
+        ]
+    },
+    "chloe": {
+        "name": "Chloe",
+        "syllables": [
+            "Chlo",
+            "e"
+        ]
+    },
+    "christie": {
+        "name": "Christie",
+        "syllables": [
+            "Chris",
+            "tie"
+        ]
+    },
+    "christina": {
+        "name": "Christina",
+        "syllables": [
+            "Chris",
+            "tin",
+            "a"
+        ]
+    },
+    "christine": {
+        "name": "Christine",
+        "syllables": [
+            "Chris",
+            "tine"
+        ]
+    },
+    "christy": {
+        "name": "Christy",
+        "syllables": [
+            "Chris",
+            "ty"
+        ]
+    },
+    "cindy": {
+        "name": "Cindy",
+        "syllables": [
+            "Cin",
+            "dy"
+        ]
+    },
+    "claire": {
+        "name": "Claire",
+        "syllables": [
+            "Claire"
+        ]
+    },
+    "claudia": {
+        "name": "Claudia",
+        "syllables": [
+            "Clau",
+            "di",
+            "a"
+        ]
+    },
+    "colleen": {
+        "name": "Colleen",
+        "syllables": [
+            "Co",
+            "lleen"
+        ]
+    },
+    "connie": {
+        "name": "Connie",
+        "syllables": [
+            "Conn",
+            "ie"
+        ]
+    },
+    "courtney": {
+        "name": "Courtney",
+        "syllables": [
+            "Court",
+            "ney"
+        ]
+    },
+    "cristina": {
+        "name": "Cristina",
+        "syllables": [
+            "Cri",
+            "sti",
+            "na"
+        ]
+    },
+    "crystal": {
+        "name": "Crystal",
+        "syllables": [
+            "Crys",
+            "tal"
+        ]
+    },
+    "cynthia": {
+        "name": "Cynthia",
+        "syllables": [
+            "Cyn",
+            "thi",
+            "a"
+        ]
+    },
+    "daisy": {
+        "name": "Daisy",
+        "syllables": [
+            "Dai",
+            "sy"
+        ]
+    },
+    "dana": {
+        "name": "Dana",
+        "syllables": [
+            "Da",
+            "na"
+        ]
+    },
+    "daniela": {
+        "name": "Daniela",
+        "syllables": [
+            "Dan",
+            "ie",
+            "la"
+        ]
+    },
+    "danielle": {
+        "name": "Danielle",
+        "syllables": [
+            "Dan",
+            "ielle"
+        ]
+    },
+    "darlene": {
+        "name": "Darlene",
+        "syllables": [
+            "Dar",
+            "lene"
+        ]
+    },
+    "dawn": {
+        "name": "Dawn",
+        "syllables": [
+            "Dawn"
+        ]
+    },
+    "deanna": {
+        "name": "Deanna",
+        "syllables": [
+            "De",
+            "ann",
+            "a"
+        ]
+    },
+    "debbie": {
+        "name": "Debbie",
+        "syllables": [
+            "Debb",
+            "ie"
+        ]
+    },
+    "deborah": {
+        "name": "Deborah",
+        "syllables": [
+            "Deb",
+            "o",
+            "rah"
+        ]
+    },
+    "debra": {
+        "name": "Debra",
+        "syllables": [
+            "Deb",
+            "ra"
+        ]
+    },
+    "delaney": {
+        "name": "Delaney",
+        "syllables": [
+            "De",
+            "la",
+            "ney"
+        ]
+    },
+    "denise": {
+        "name": "Denise",
+        "syllables": [
+            "De",
+            "nise"
+        ]
+    },
+    "desiree": {
+        "name": "Desiree",
+        "syllables": [
+            "De",
+            "si",
+            "ree"
+        ]
+    },
+    "destiny": {
+        "name": "Destiny",
+        "syllables": [
+            "Des",
+            "ti",
+            "ny"
+        ]
+    },
+    "diamond": {
+        "name": "Diamond",
+        "syllables": [
+            "Di",
+            "a",
+            "mond"
+        ]
+    },
+    "diana": {
+        "name": "Diana",
+        "syllables": [
+            "Di",
+            "an",
+            "a"
+        ]
+    },
+    "diane": {
+        "name": "Diane",
+        "syllables": [
+            "Di",
+            "ane"
+        ]
+    },
+    "dominique": {
+        "name": "Dominique",
+        "syllables": [
+            "Do",
+            "mi",
+            "nique"
+        ]
+    },
+    "donna": {
+        "name": "Donna",
+        "syllables": [
+            "Donn",
+            "a"
+        ]
+    },
+    "doris": {
+        "name": "Doris",
+        "syllables": [
+            "Dor",
+            "is"
+        ]
+    },
+    "dorothy": {
+        "name": "Dorothy",
+        "syllables": [
+            "Dor",
+            "o",
+            "thy"
+        ]
+    },
+    "ebony": {
+        "name": "Ebony",
+        "syllables": [
+            "Eb",
+            "o",
+            "ny"
+        ]
+    },
+    "eileen": {
+        "name": "Eileen",
+        "syllables": [
+            "Ei",
+            "leen"
+        ]
+    },
+    "elaine": {
+        "name": "Elaine",
+        "syllables": [
+            "E",
+            "laine"
+        ]
+    },
+    "elizabeth": {
+        "name": "Elizabeth",
+        "syllables": [
+            "E",
+            "liz",
+            "a",
+            "beth"
+        ]
+    },
+    "ella": {
+        "name": "Ella",
+        "syllables": [
+            "Ell",
+            "a"
+        ]
+    },
+    "ellen": {
+        "name": "Ellen",
+        "syllables": [
+            "Ell",
+            "en"
+        ]
+    },
+    "ellie": {
+        "name": "Ellie",
+        "syllables": [
+            "Ell",
+            "ie"
+        ]
+    },
+    "emily": {
+        "name": "Emily",
+        "syllables": [
+            "Em",
+            "i",
+            "ly"
+        ]
+    },
+    "emma": {
+        "name": "Emma",
+        "syllables": [
+            "Emm",
+            "a"
+        ]
+    },
+    "erica": {
+        "name": "Erica",
+        "syllables": [
+            "Er",
+            "i",
+            "ca"
+        ]
+    },
+    "erika": {
+        "name": "Erika",
+        "syllables": [
+            "E",
+            "ri",
+            "ka"
+        ]
+    },
+    "erin": {
+        "name": "Erin",
+        "syllables": [
+            "Er",
+            "in"
+        ]
+    },
+    "eva": {
+        "name": "Eva",
+        "syllables": [
+            "E",
+            "va"
+        ]
+    },
+    "evelyn": {
+        "name": "Evelyn",
+        "syllables": [
+            "Ev",
+            "e",
+            "lyn"
+        ]
+    },
+    "faith": {
+        "name": "Faith",
+        "syllables": [
+            "Faith"
+        ]
+    },
+    "felicia": {
+        "name": "Felicia",
+        "syllables": [
+            "Fe",
+            "li",
+            "cia"
+        ]
+    },
+    "frances": {
+        "name": "Frances",
+        "syllables": [
+            "Fran",
+            "ces"
+        ]
+    },
+    "gabriela": {
+        "name": "Gabriela",
+        "syllables": [
+            "Gab",
+            "ri",
+            "ela"
+        ]
+    },
+    "gabriella": {
+        "name": "Gabriella",
+        "syllables": [
+            "Ga",
+            "briel",
+            "la"
+        ]
+    },
+    "gabrielle": {
+        "name": "Gabrielle",
+        "syllables": [
+            "Ga",
+            "brie",
+            "lle"
+        ]
+    },
+    "gail": {
+        "name": "Gail",
+        "syllables": [
+            "Gail"
+        ]
+    },
+    "genesis": {
+        "name": "Genesis",
+        "syllables": [
+            "Gen",
+            "e",
+            "sis"
+        ]
+    },
+    "gianna": {
+        "name": "Gianna",
+        "syllables": [
+            "Gia",
+            "nna"
+        ]
+    },
+    "gina": {
+        "name": "Gina",
+        "syllables": [
+            "Gi",
+            "na"
+        ]
+    },
+    "giselle": {
+        "name": "Giselle",
+        "syllables": [
+            "Gi",
+            "selle"
+        ]
+    },
+    "glenda": {
+        "name": "Glenda",
+        "syllables": [
+            "Glen",
+            "da"
+        ]
+    },
+    "gloria": {
+        "name": "Gloria",
+        "syllables": [
+            "Glor",
+            "i",
+            "a"
+        ]
+    },
+    "grace": {
+        "name": "Grace",
+        "syllables": [
+            "Grace"
+        ]
+    },
+    "gracie": {
+        "name": "Gracie",
+        "syllables": [
+            "Gra",
+            "cie"
+        ]
+    },
+    "gwendolyn": {
+        "name": "Gwendolyn",
+        "syllables": [
+            "Gwen",
+            "do",
+            "lyn"
+        ]
+    },
+    "hailey": {
+        "name": "Hailey",
+        "syllables": [
+            "Hai",
+            "ley"
+        ]
+    },
+    "haley": {
+        "name": "Haley",
+        "syllables": [
+            "Ha",
+            "ley"
+        ]
+    },
+    "hannah": {
+        "name": "Hannah",
+        "syllables": [
+            "Hann",
+            "ah"
+        ]
+    },
+    "hayley": {
+        "name": "Hayley",
+        "syllables": [
+            "Hay",
+            "ley"
+        ]
+    },
+    "heather": {
+        "name": "Heather",
+        "syllables": [
+            "Hea",
+            "ther"
+        ]
+    },
+    "heidi": {
+        "name": "Heidi",
+        "syllables": [
+            "Hei",
+            "di"
+        ]
+    },
+    "helen": {
+        "name": "Helen",
+        "syllables": [
+            "Hel",
+            "en"
+        ]
+    },
+    "holly": {
+        "name": "Holly",
+        "syllables": [
+            "Holl",
+            "y"
+        ]
+    },
+    "hope": {
+        "name": "Hope",
+        "syllables": [
+            "Hope"
+        ]
+    },
+    "isabel": {
+        "name": "Isabel",
+        "syllables": [
+            "I",
+            "sa",
+            "bel"
+        ]
+    },
+    "isabella": {
+        "name": "Isabella",
+        "syllables": [
+            "I",
+            "sa",
+            "bel",
+            "la"
+        ]
+    },
+    "isabelle": {
+        "name": "Isabelle",
+        "syllables": [
+            "I",
+            "sa",
+            "belle"
+        ]
+    },
+    "jackie": {
+        "name": "Jackie",
+        "syllables": [
+            "Jack",
+            "ie"
+        ]
+    },
+    "jaclyn": {
+        "name": "Jaclyn",
+        "syllables": [
+            "Jac",
+            "lyn"
+        ]
+    },
+    "jacqueline": {
+        "name": "Jacqueline",
+        "syllables": [
+            "Ja",
+            "cque",
+            "line"
+        ]
+    },
+    "jada": {
+        "name": "Jada",
+        "syllables": [
+            "Ja",
+            "da"
+        ]
+    },
+    "jade": {
+        "name": "Jade",
+        "syllables": [
+            "Jade"
+        ]
+    },
+    "jaime": {
+        "name": "Jaime",
+        "syllables": [
+            "Jai",
+            "me"
+        ]
+    },
+    "jamie": {
+        "name": "Jamie",
+        "syllables": [
+            "Ja",
+            "mie"
+        ]
+    },
+    "jane": {
+        "name": "Jane",
+        "syllables": [
+            "Jane"
+        ]
+    },
+    "janet": {
+        "name": "Janet",
+        "syllables": [
+            "Jan",
+            "et"
+        ]
+    },
+    "janice": {
+        "name": "Janice",
+        "syllables": [
+            "Jan",
+            "ice"
+        ]
+    },
+    "jasmin": {
+        "name": "Jasmin",
+        "syllables": [
+            "Jas",
+            "min"
+        ]
+    },
+    "jasmine": {
+        "name": "Jasmine",
+        "syllables": [
+            "Jas",
+            "mine"
+        ]
+    },
+    "jayla": {
+        "name": "Jayla",
+        "syllables": [
+            "Jay",
+            "la"
+        ]
+    },
+    "jazmin": {
+        "name": "Jazmin",
+        "syllables": [
+            "Jaz",
+            "min"
+        ]
+    },
+    "jean": {
+        "name": "Jean",
+        "syllables": [
+            "Jean"
+        ]
+    },
+    "jeanette": {
+        "name": "Jeanette",
+        "syllables": [
+            "Jea",
+            "nette"
+        ]
+    },
+    "jeanne": {
+        "name": "Jeanne",
+        "syllables": [
+            "Jeanne"
+        ]
+    },
+    "jenna": {
+        "name": "Jenna",
+        "syllables": [
+            "Jenn",
+            "a"
+        ]
+    },
+    "jennifer": {
+        "name": "Jennifer",
+        "syllables": [
+            "Jenn",
+            "i",
+            "fer"
+        ]
+    },
+    "jenny": {
+        "name": "Jenny",
+        "syllables": [
+            "Jenn",
+            "y"
+        ]
+    },
+    "jessica": {
+        "name": "Jessica",
+        "syllables": [
+            "Jess",
+            "i",
+            "ca"
+        ]
+    },
+    "jill": {
+        "name": "Jill",
+        "syllables": [
+            "Jill"
+        ]
+    },
+    "jillian": {
+        "name": "Jillian",
+        "syllables": [
+            "Jill",
+            "i",
+            "an"
+        ]
+    },
+    "jo": {
+        "name": "Jo",
+        "syllables": [
+            "Jo"
+        ]
+    },
+    "joan": {
+        "name": "Joan",
+        "syllables": [
+            "Joan"
+        ]
+    },
+    "joann": {
+        "name": "Joann",
+        "syllables": [
+            "Jo",
+            "ann"
+        ]
+    },
+    "joanna": {
+        "name": "Joanna",
+        "syllables": [
+            "Jo",
+            "ann",
+            "a"
+        ]
+    },
+    "joanne": {
+        "name": "Joanne",
+        "syllables": [
+            "Jo",
+            "anne"
+        ]
+    },
+    "jocelyn": {
+        "name": "Jocelyn",
+        "syllables": [
+            "Joce",
+            "lyn"
+        ]
+    },
+    "jodi": {
+        "name": "Jodi",
+        "syllables": [
+            "Jo",
+            "di"
+        ]
+    },
+    "jody": {
+        "name": "Jody",
+        "syllables": [
+            "Jo",
+            "dy"
+        ]
+    },
+    "jordan": {
+        "name": "Jordan",
+        "syllables": [
+            "Jor",
+            "dan"
+        ]
+    },
+    "jordyn": {
+        "name": "Jordyn",
+        "syllables": [
+            "Jor",
+            "dyn"
+        ]
+    },
+    "joy": {
+        "name": "Joy",
+        "syllables": [
+            "Joy"
+        ]
+    },
+    "joyce": {
+        "name": "Joyce",
+        "syllables": [
+            "Joyce"
+        ]
+    },
+    "judith": {
+        "name": "Judith",
+        "syllables": [
+            "Ju",
+            "dith"
+        ]
+    },
+    "judy": {
+        "name": "Judy",
+        "syllables": [
+            "Ju",
+            "dy"
+        ]
+    },
+    "julia": {
+        "name": "Julia",
+        "syllables": [
+            "Ju",
+            "li",
+            "a"
+        ]
+    },
+    "juliana": {
+        "name": "Juliana",
+        "syllables": [
+            "Ju",
+            "li",
+            "a",
+            "na"
+        ]
+    },
+    "julie": {
+        "name": "Julie",
+        "syllables": [
+            "Ju",
+            "lie"
+        ]
+    },
+    "kaitlin": {
+        "name": "Kaitlin",
+        "syllables": [
+            "Kait",
+            "lin"
+        ]
+    },
+    "kaitlyn": {
+        "name": "Kaitlyn",
+        "syllables": [
+            "Kait",
+            "lyn"
+        ]
+    },
+    "kara": {
+        "name": "Kara",
+        "syllables": [
+            "Kar",
+            "a"
+        ]
+    },
+    "karen": {
+        "name": "Karen",
+        "syllables": [
+            "Kar",
+            "en"
+        ]
+    },
+    "kari": {
+        "name": "Kari",
+        "syllables": [
+            "Kar",
+            "i"
+        ]
+    },
+    "karina": {
+        "name": "Karina",
+        "syllables": [
+            "Ka",
+            "ri",
+            "na"
+        ]
+    },
+    "karla": {
+        "name": "Karla",
+        "syllables": [
+            "Kar",
+            "la"
+        ]
+    },
+    "kate": {
+        "name": "Kate",
+        "syllables": [
+            "Kate"
+        ]
+    },
+    "katelyn": {
+        "name": "Katelyn",
+        "syllables": [
+            "Kate",
+            "lyn"
+        ]
+    },
+    "katherine": {
+        "name": "Katherine",
+        "syllables": [
+            "Kath",
+            "e",
+            "rine"
+        ]
+    },
+    "kathleen": {
+        "name": "Kathleen",
+        "syllables": [
+            "Kath",
+            "leen"
+        ]
+    },
+    "kathryn": {
+        "name": "Kathryn",
+        "syllables": [
+            "Kath",
+            "ryn"
+        ]
+    },
+    "kathy": {
+        "name": "Kathy",
+        "syllables": [
+            "Kath",
+            "y"
+        ]
+    },
+    "katie": {
+        "name": "Katie",
+        "syllables": [
+            "Ka",
+            "tie"
+        ]
+    },
+    "katrina": {
+        "name": "Katrina",
+        "syllables": [
+            "Ka",
+            "tri",
+            "na"
+        ]
+    },
+    "kayla": {
+        "name": "Kayla",
+        "syllables": [
+            "Kay",
+            "la"
+        ]
+    },
+    "kaylee": {
+        "name": "Kaylee",
+        "syllables": [
+            "Kay",
+            "lee"
+        ]
+    },
+    "kelli": {
+        "name": "Kelli",
+        "syllables": [
+            "Kell",
+            "i"
+        ]
+    },
+    "kellie": {
+        "name": "Kellie",
+        "syllables": [
+            "Kell",
+            "ie"
+        ]
+    },
+    "kelly": {
+        "name": "Kelly",
+        "syllables": [
+            "Kell",
+            "y"
+        ]
+    },
+    "kelsey": {
+        "name": "Kelsey",
+        "syllables": [
+            "Kel",
+            "sey"
+        ]
+    },
+    "kendall": {
+        "name": "Kendall",
+        "syllables": [
+            "Ken",
+            "dall"
+        ]
+    },
+    "kendra": {
+        "name": "Kendra",
+        "syllables": [
+            "Ken",
+            "dra"
+        ]
+    },
+    "kennedy": {
+        "name": "Kennedy",
+        "syllables": [
+            "Kenn",
+            "e",
+            "dy"
+        ]
+    },
+    "kerri": {
+        "name": "Kerri",
+        "syllables": [
+            "Kerr",
+            "i"
+        ]
+    },
+    "kerry": {
+        "name": "Kerry",
+        "syllables": [
+            "Kerr",
+            "y"
+        ]
+    },
+    "kiara": {
+        "name": "Kiara",
+        "syllables": [
+            "Ki",
+            "ar",
+            "a"
+        ]
+    },
+    "kim": {
+        "name": "Kim",
+        "syllables": [
+            "Kim"
+        ]
+    },
+    "kimberly": {
+        "name": "Kimberly",
+        "syllables": [
+            "Kim",
+            "ber",
+            "ly"
+        ]
+    },
+    "kirsten": {
+        "name": "Kirsten",
+        "syllables": [
+            "Kir",
+            "sten"
+        ]
+    },
+    "krista": {
+        "name": "Krista",
+        "syllables": [
+            "Kris",
+            "ta"
+        ]
+    },
+    "kristen": {
+        "name": "Kristen",
+        "syllables": [
+            "Kris",
+            "ten"
+        ]
+    },
+    "kristi": {
+        "name": "Kristi",
+        "syllables": [
+            "Kris",
+            "ti"
+        ]
+    },
+    "kristie": {
+        "name": "Kristie",
+        "syllables": [
+            "Kris",
+            "tie"
+        ]
+    },
+    "kristin": {
+        "name": "Kristin",
+        "syllables": [
+            "Kris",
+            "tin"
+        ]
+    },
+    "kristina": {
+        "name": "Kristina",
+        "syllables": [
+            "Kris",
+            "ti",
+            "na"
+        ]
+    },
+    "kristine": {
+        "name": "Kristine",
+        "syllables": [
+            "Kris",
+            "ti",
+            "ne"
+        ]
+    },
+    "kristy": {
+        "name": "Kristy",
+        "syllables": [
+            "Kris",
+            "ty"
+        ]
+    },
+    "krystal": {
+        "name": "Krystal",
+        "syllables": [
+            "Krys",
+            "tal"
+        ]
+    },
+    "kylee": {
+        "name": "Kylee",
+        "syllables": [
+            "Ky",
+            "lee"
+        ]
+    },
+    "kylie": {
+        "name": "Kylie",
+        "syllables": [
+            "Ky",
+            "lie"
+        ]
+    },
+    "lacey": {
+        "name": "Lacey",
+        "syllables": [
+            "La",
+            "cey"
+        ]
+    },
+    "latasha": {
+        "name": "Latasha",
+        "syllables": [
+            "La",
+            "tash",
+            "a"
+        ]
+    },
+    "latoya": {
+        "name": "Latoya",
+        "syllables": [
+            "La",
+            "toy",
+            "a"
+        ]
+    },
+    "laura": {
+        "name": "Laura",
+        "syllables": [
+            "Laur",
+            "a"
+        ]
+    },
+    "lauren": {
+        "name": "Lauren",
+        "syllables": [
+            "Laur",
+            "en"
+        ]
+    },
+    "laurie": {
+        "name": "Laurie",
+        "syllables": [
+            "Laur",
+            "ie"
+        ]
+    },
+    "layla": {
+        "name": "Layla",
+        "syllables": [
+            "Lay",
+            "la"
+        ]
+    },
+    "leah": {
+        "name": "Leah",
+        "syllables": [
+            "Le",
+            "ah"
+        ]
+    },
+    "leslie": {
+        "name": "Leslie",
+        "syllables": [
+            "Les",
+            "lie"
+        ]
+    },
+    "liliana": {
+        "name": "Liliana",
+        "syllables": [
+            "Li",
+            "li",
+            "ana"
+        ]
+    },
+    "lillian": {
+        "name": "Lillian",
+        "syllables": [
+            "Lill",
+            "i",
+            "an"
+        ]
+    },
+    "lilly": {
+        "name": "Lilly",
+        "syllables": [
+            "Lill",
+            "y"
+        ]
+    },
+    "lily": {
+        "name": "Lily",
+        "syllables": [
+            "Lil",
+            "y"
+        ]
+    },
+    "linda": {
+        "name": "Linda",
+        "syllables": [
+            "Lin",
+            "da"
+        ]
+    },
+    "lindsay": {
+        "name": "Lindsay",
+        "syllables": [
+            "Lind",
+            "say"
+        ]
+    },
+    "lindsey": {
+        "name": "Lindsey",
+        "syllables": [
+            "Lind",
+            "sey"
+        ]
+    },
+    "lisa": {
+        "name": "Lisa",
+        "syllables": [
+            "Li",
+            "sa"
+        ]
+    },
+    "loretta": {
+        "name": "Loretta",
+        "syllables": [
+            "Lo",
+            "rett",
+            "a"
+        ]
+    },
+    "lori": {
+        "name": "Lori",
+        "syllables": [
+            "Lor",
+            "i"
+        ]
+    },
+    "lorraine": {
+        "name": "Lorraine",
+        "syllables": [
+            "Lo",
+            "rraine"
+        ]
+    },
+    "lucy": {
+        "name": "Lucy",
+        "syllables": [
+            "Lu",
+            "cy"
+        ]
+    },
+    "lydia": {
+        "name": "Lydia",
+        "syllables": [
+            "Lyd",
+            "i",
+            "a"
+        ]
+    },
+    "lynn": {
+        "name": "Lynn",
+        "syllables": [
+            "Lynn"
+        ]
+    },
+    "mackenzie": {
+        "name": "Mackenzie",
+        "syllables": [
+            "Ma",
+            "cken",
+            "zie"
+        ]
+    },
+    "madeline": {
+        "name": "Madeline",
+        "syllables": [
+            "Mad",
+            "e",
+            "line"
+        ]
+    },
+    "madelyn": {
+        "name": "Madelyn",
+        "syllables": [
+            "Mad",
+            "e",
+            "lyn"
+        ]
+    },
+    "madison": {
+        "name": "Madison",
+        "syllables": [
+            "Mad",
+            "i",
+            "son"
+        ]
+    },
+    "makayla": {
+        "name": "Makayla",
+        "syllables": [
+            "Ma",
+            "kay",
+            "la"
+        ]
+    },
+    "makenzie": {
+        "name": "Makenzie",
+        "syllables": [
+            "Ma",
+            "ken",
+            "zie"
+        ]
+    },
+    "mallory": {
+        "name": "Mallory",
+        "syllables": [
+            "Mall",
+            "o",
+            "ry"
+        ]
+    },
+    "mandy": {
+        "name": "Mandy",
+        "syllables": [
+            "Man",
+            "dy"
+        ]
+    },
+    "marcia": {
+        "name": "Marcia",
+        "syllables": [
+            "Mar",
+            "cia"
+        ]
+    },
+    "margaret": {
+        "name": "Margaret",
+        "syllables": [
+            "Mar",
+            "ga",
+            "ret"
+        ]
+    },
+    "maria": {
+        "name": "Maria",
+        "syllables": [
+            "Ma",
+            "ri",
+            "a"
+        ]
+    },
+    "mariah": {
+        "name": "Mariah",
+        "syllables": [
+            "Ma",
+            "ri",
+            "ah"
+        ]
+    },
+    "marie": {
+        "name": "Marie",
+        "syllables": [
+            "Ma",
+            "rie"
+        ]
+    },
+    "marilyn": {
+        "name": "Marilyn",
+        "syllables": [
+            "Mar",
+            "i",
+            "lyn"
+        ]
+    },
+    "marisa": {
+        "name": "Marisa",
+        "syllables": [
+            "Ma",
+            "ri",
+            "sa"
+        ]
+    },
+    "marissa": {
+        "name": "Marissa",
+        "syllables": [
+            "Ma",
+            "riss",
+            "a"
+        ]
+    },
+    "martha": {
+        "name": "Martha",
+        "syllables": [
+            "Mar",
+            "tha"
+        ]
+    },
+    "mary": {
+        "name": "Mary",
+        "syllables": [
+            "Ma",
+            "ry"
+        ]
+    },
+    "maureen": {
+        "name": "Maureen",
+        "syllables": [
+            "Mau",
+            "reen"
+        ]
+    },
+    "maya": {
+        "name": "Maya",
+        "syllables": [
+            "May",
+            "a"
+        ]
+    },
+    "mckenzie": {
+        "name": "Mckenzie",
+        "syllables": [
+            "M",
+            "cken",
+            "zie"
+        ]
+    },
+    "meagan": {
+        "name": "Meagan",
+        "syllables": [
+            "Meag",
+            "an"
+        ]
+    },
+    "megan": {
+        "name": "Megan",
+        "syllables": [
+            "Meg",
+            "an"
+        ]
+    },
+    "meghan": {
+        "name": "Meghan",
+        "syllables": [
+            "Megh",
+            "an"
+        ]
+    },
+    "melanie": {
+        "name": "Melanie",
+        "syllables": [
+            "Mel",
+            "a",
+            "nie"
+        ]
+    },
+    "melinda": {
+        "name": "Melinda",
+        "syllables": [
+            "Me",
+            "lin",
+            "da"
+        ]
+    },
+    "melissa": {
+        "name": "Melissa",
+        "syllables": [
+            "Me",
+            "liss",
+            "a"
+        ]
+    },
+    "melody": {
+        "name": "Melody",
+        "syllables": [
+            "Mel",
+            "o",
+            "dy"
+        ]
+    },
+    "mercedes": {
+        "name": "Mercedes",
+        "syllables": [
+            "Mer",
+            "ce",
+            "des"
+        ]
+    },
+    "meredith": {
+        "name": "Meredith",
+        "syllables": [
+            "Mer",
+            "e",
+            "dith"
+        ]
+    },
+    "mia": {
+        "name": "Mia",
+        "syllables": [
+            "Mi",
+            "a"
+        ]
+    },
+    "michaela": {
+        "name": "Michaela",
+        "syllables": [
+            "Mi",
+            "cha",
+            "e",
+            "la"
+        ]
+    },
+    "michele": {
+        "name": "Michele",
+        "syllables": [
+            "Mi",
+            "che",
+            "le"
+        ]
+    },
+    "michelle": {
+        "name": "Michelle",
+        "syllables": [
+            "Mi",
+            "chelle"
+        ]
+    },
+    "mikayla": {
+        "name": "Mikayla",
+        "syllables": [
+            "Mi",
+            "kay",
+            "la"
+        ]
+    },
+    "mindy": {
+        "name": "Mindy",
+        "syllables": [
+            "Min",
+            "dy"
+        ]
+    },
+    "miranda": {
+        "name": "Miranda",
+        "syllables": [
+            "Mi",
+            "ran",
+            "da"
+        ]
+    },
+    "misty": {
+        "name": "Misty",
+        "syllables": [
+            "Mis",
+            "ty"
+        ]
+    },
+    "molly": {
+        "name": "Molly",
+        "syllables": [
+            "Moll",
+            "y"
+        ]
+    },
+    "monica": {
+        "name": "Monica",
+        "syllables": [
+            "Mon",
+            "i",
+            "ca"
+        ]
+    },
+    "monique": {
+        "name": "Monique",
+        "syllables": [
+            "Mo",
+            "nique"
+        ]
+    },
+    "morgan": {
+        "name": "Morgan",
+        "syllables": [
+            "Mor",
+            "gan"
+        ]
+    },
+    "mya": {
+        "name": "Mya",
+        "syllables": [
+            "My",
+            "a"
+        ]
+    },
+    "nancy": {
+        "name": "Nancy",
+        "syllables": [
+            "Nan",
+            "cy"
+        ]
+    },
+    "naomi": {
+        "name": "Naomi",
+        "syllables": [
+            "Na",
+            "o",
+            "mi"
+        ]
+    },
+    "natalia": {
+        "name": "Natalia",
+        "syllables": [
+            "Na",
+            "ta",
+            "lia"
+        ]
+    },
+    "natalie": {
+        "name": "Natalie",
+        "syllables": [
+            "Nat",
+            "a",
+            "lie"
+        ]
+    },
+    "natasha": {
+        "name": "Natasha",
+        "syllables": [
+            "Na",
+            "tash",
+            "a"
+        ]
+    },
+    "nevaeh": {
+        "name": "Nevaeh",
+        "syllables": [
+            "Ne",
+            "va",
+            "eh"
+        ]
+    },
+    "nichole": {
+        "name": "Nichole",
+        "syllables": [
+            "Ni",
+            "chole"
+        ]
+    },
+    "nicole": {
+        "name": "Nicole",
+        "syllables": [
+            "Ni",
+            "cole"
+        ]
+    },
+    "nina": {
+        "name": "Nina",
+        "syllables": [
+            "Ni",
+            "na"
+        ]
+    },
+    "norma": {
+        "name": "Norma",
+        "syllables": [
+            "Nor",
+            "ma"
+        ]
+    },
+    "olivia": {
+        "name": "Olivia",
+        "syllables": [
+            "O",
+            "liv",
+            "i",
+            "a"
+        ]
+    },
+    "paige": {
+        "name": "Paige",
+        "syllables": [
+            "Paige"
+        ]
+    },
+    "pam": {
+        "name": "Pam",
+        "syllables": [
+            "Pam"
+        ]
+    },
+    "pamela": {
+        "name": "Pamela",
+        "syllables": [
+            "Pam",
+            "e",
+            "la"
+        ]
+    },
+    "patricia": {
+        "name": "Patricia",
+        "syllables": [
+            "Pa",
+            "tric",
+            "ia"
+        ]
+    },
+    "patty": {
+        "name": "Patty",
+        "syllables": [
+            "Patt",
+            "y"
+        ]
+    },
+    "paula": {
+        "name": "Paula",
+        "syllables": [
+            "Pau",
+            "la"
+        ]
+    },
+    "payton": {
+        "name": "Payton",
+        "syllables": [
+            "Pay",
+            "ton"
+        ]
+    },
+    "peggy": {
+        "name": "Peggy",
+        "syllables": [
+            "Pegg",
+            "y"
+        ]
+    },
+    "penny": {
+        "name": "Penny",
+        "syllables": [
+            "Penn",
+            "y"
+        ]
+    },
+    "peyton": {
+        "name": "Peyton",
+        "syllables": [
+            "Pey",
+            "ton"
+        ]
+    },
+    "phyllis": {
+        "name": "Phyllis",
+        "syllables": [
+            "Phyll",
+            "is"
+        ]
+    },
+    "priscilla": {
+        "name": "Priscilla",
+        "syllables": [
+            "Pri",
+            "scill",
+            "a"
+        ]
+    },
+    "rachael": {
+        "name": "Rachael",
+        "syllables": [
+            "Ra",
+            "chael"
+        ]
+    },
+    "rachel": {
+        "name": "Rachel",
+        "syllables": [
+            "Ra",
+            "chel"
+        ]
+    },
+    "raven": {
+        "name": "Raven",
+        "syllables": [
+            "Ra",
+            "ven"
+        ]
+    },
+    "reagan": {
+        "name": "Reagan",
+        "syllables": [
+            "Rea",
+            "gan"
+        ]
+    },
+    "rebecca": {
+        "name": "Rebecca",
+        "syllables": [
+            "Re",
+            "becc",
+            "a"
+        ]
+    },
+    "rebekah": {
+        "name": "Rebekah",
+        "syllables": [
+            "R",
+            "ebek",
+            "ah"
+        ]
+    },
+    "regina": {
+        "name": "Regina",
+        "syllables": [
+            "Re",
+            "gin",
+            "a"
+        ]
+    },
+    "renee": {
+        "name": "Renee",
+        "syllables": [
+            "Re",
+            "nee"
+        ]
+    },
+    "rhonda": {
+        "name": "Rhonda",
+        "syllables": [
+            "Rhon",
+            "da"
+        ]
+    },
+    "riley": {
+        "name": "Riley",
+        "syllables": [
+            "Ri",
+            "ley"
+        ]
+    },
+    "rita": {
+        "name": "Rita",
+        "syllables": [
+            "Ri",
+            "ta"
+        ]
+    },
+    "roberta": {
+        "name": "Roberta",
+        "syllables": [
+            "Ro",
+            "ber",
+            "ta"
+        ]
+    },
+    "robin": {
+        "name": "Robin",
+        "syllables": [
+            "Ro",
+            "bin"
+        ]
+    },
+    "robyn": {
+        "name": "Robyn",
+        "syllables": [
+            "Ro",
+            "byn"
+        ]
+    },
+    "rose": {
+        "name": "Rose",
+        "syllables": [
+            "Rose"
+        ]
+    },
+    "ruby": {
+        "name": "Ruby",
+        "syllables": [
+            "Ru",
+            "by"
+        ]
+    },
+    "ruth": {
+        "name": "Ruth",
+        "syllables": [
+            "Ruth"
+        ]
+    },
+    "rylee": {
+        "name": "Rylee",
+        "syllables": [
+            "Ry",
+            "lee"
+        ]
+    },
+    "sabrina": {
+        "name": "Sabrina",
+        "syllables": [
+            "Sa",
+            "brin",
+            "a"
+        ]
+    },
+    "sadie": {
+        "name": "Sadie",
+        "syllables": [
+            "Sa",
+            "die"
+        ]
+    },
+    "sally": {
+        "name": "Sally",
+        "syllables": [
+            "Sall",
+            "y"
+        ]
+    },
+    "samantha": {
+        "name": "Samantha",
+        "syllables": [
+            "Sa",
+            "man",
+            "tha"
+        ]
+    },
+    "sandra": {
+        "name": "Sandra",
+        "syllables": [
+            "San",
+            "dra"
+        ]
+    },
+    "sandy": {
+        "name": "Sandy",
+        "syllables": [
+            "San",
+            "dy"
+        ]
+    },
+    "sara": {
+        "name": "Sara",
+        "syllables": [
+            "Sa",
+            "ra"
+        ]
+    },
+    "sarah": {
+        "name": "Sarah",
+        "syllables": [
+            "Sar",
+            "ah"
+        ]
+    },
+    "savannah": {
+        "name": "Savannah",
+        "syllables": [
+            "Sa",
+            "vann",
+            "ah"
+        ]
+    },
+    "selena": {
+        "name": "Selena",
+        "syllables": [
+            "Se",
+            "le",
+            "na"
+        ]
+    },
+    "serenity": {
+        "name": "Serenity",
+        "syllables": [
+            "Se",
+            "ren",
+            "i",
+            "ty"
+        ]
+    },
+    "shannon": {
+        "name": "Shannon",
+        "syllables": [
+            "Shann",
+            "on"
+        ]
+    },
+    "shari": {
+        "name": "Shari",
+        "syllables": [
+            "Shar",
+            "i"
+        ]
+    },
+    "sharon": {
+        "name": "Sharon",
+        "syllables": [
+            "Shar",
+            "on"
+        ]
+    },
+    "shawna": {
+        "name": "Shawna",
+        "syllables": [
+            "Shaw",
+            "na"
+        ]
+    },
+    "sheena": {
+        "name": "Sheena",
+        "syllables": [
+            "Shee",
+            "na"
+        ]
+    },
+    "sheila": {
+        "name": "Sheila",
+        "syllables": [
+            "Shei",
+            "la"
+        ]
+    },
+    "shelby": {
+        "name": "Shelby",
+        "syllables": [
+            "Shel",
+            "by"
+        ]
+    },
+    "shelia": {
+        "name": "Shelia",
+        "syllables": [
+            "She",
+            "lia"
+        ]
+    },
+    "shelley": {
+        "name": "Shelley",
+        "syllables": [
+            "Shell",
+            "ey"
+        ]
+    },
+    "shelly": {
+        "name": "Shelly",
+        "syllables": [
+            "Shell",
+            "y"
+        ]
+    },
+    "sheri": {
+        "name": "Sheri",
+        "syllables": [
+            "Sher",
+            "i"
+        ]
+    },
+    "sherri": {
+        "name": "Sherri",
+        "syllables": [
+            "Sherr",
+            "i"
+        ]
+    },
+    "sherry": {
+        "name": "Sherry",
+        "syllables": [
+            "Sherr",
+            "y"
+        ]
+    },
+    "sheryl": {
+        "name": "Sheryl",
+        "syllables": [
+            "Sher",
+            "yl"
+        ]
+    },
+    "shirley": {
+        "name": "Shirley",
+        "syllables": [
+            "Shir",
+            "ley"
+        ]
+    },
+    "sierra": {
+        "name": "Sierra",
+        "syllables": [
+            "Si",
+            "err",
+            "a"
+        ]
+    },
+    "skylar": {
+        "name": "Skylar",
+        "syllables": [
+            "Sky",
+            "lar"
+        ]
+    },
+    "sofia": {
+        "name": "Sofia",
+        "syllables": [
+            "So",
+            "fi",
+            "a"
+        ]
+    },
+    "sonia": {
+        "name": "Sonia",
+        "syllables": [
+            "Son",
+            "ia"
+        ]
+    },
+    "sonya": {
+        "name": "Sonya",
+        "syllables": [
+            "Son",
+            "ya"
+        ]
+    },
+    "sophia": {
+        "name": "Sophia",
+        "syllables": [
+            "So",
+            "phi",
+            "a"
+        ]
+    },
+    "sophie": {
+        "name": "Sophie",
+        "syllables": [
+            "So",
+            "phie"
+        ]
+    },
+    "stacey": {
+        "name": "Stacey",
+        "syllables": [
+            "Sta",
+            "cey"
+        ]
+    },
+    "stacie": {
+        "name": "Stacie",
+        "syllables": [
+            "Sta",
+            "cie"
+        ]
+    },
+    "stacy": {
+        "name": "Stacy",
+        "syllables": [
+            "Sta",
+            "cy"
+        ]
+    },
+    "stefanie": {
+        "name": "Stefanie",
+        "syllables": [
+            "Ste",
+            "fa",
+            "nie"
+        ]
+    },
+    "stephanie": {
+        "name": "Stephanie",
+        "syllables": [
+            "Steph",
+            "a",
+            "nie"
+        ]
+    },
+    "sue": {
+        "name": "Sue",
+        "syllables": [
+            "Sue"
+        ]
+    },
+    "summer": {
+        "name": "Summer",
+        "syllables": [
+            "Summ",
+            "er"
+        ]
+    },
+    "susan": {
+        "name": "Susan",
+        "syllables": [
+            "Su",
+            "san"
+        ]
+    },
+    "suzanne": {
+        "name": "Suzanne",
+        "syllables": [
+            "Su",
+            "zanne"
+        ]
+    },
+    "sydney": {
+        "name": "Sydney",
+        "syllables": [
+            "Syd",
+            "ney"
+        ]
+    },
+    "sylvia": {
+        "name": "Sylvia",
+        "syllables": [
+            "Syl",
+            "vi",
+            "a"
+        ]
+    },
+    "tabitha": {
+        "name": "Tabitha",
+        "syllables": [
+            "Tab",
+            "i",
+            "tha"
+        ]
+    },
+    "tamara": {
+        "name": "Tamara",
+        "syllables": [
+            "Ta",
+            "ma",
+            "ra"
+        ]
+    },
+    "tami": {
+        "name": "Tami",
+        "syllables": [
+            "Tam",
+            "i"
+        ]
+    },
+    "tammie": {
+        "name": "Tammie",
+        "syllables": [
+            "Tamm",
+            "ie"
+        ]
+    },
+    "tammy": {
+        "name": "Tammy",
+        "syllables": [
+            "Tamm",
+            "y"
+        ]
+    },
+    "tanya": {
+        "name": "Tanya",
+        "syllables": [
+            "Tan",
+            "ya"
+        ]
+    },
+    "tara": {
+        "name": "Tara",
+        "syllables": [
+            "Tar",
+            "a"
+        ]
+    },
+    "tasha": {
+        "name": "Tasha",
+        "syllables": [
+            "Tash",
+            "a"
+        ]
+    },
+    "taylor": {
+        "name": "Taylor",
+        "syllables": [
+            "Tay",
+            "lor"
+        ]
+    },
+    "teresa": {
+        "name": "Teresa",
+        "syllables": [
+            "Te",
+            "re",
+            "sa"
+        ]
+    },
+    "terri": {
+        "name": "Terri",
+        "syllables": [
+            "Terr",
+            "i"
+        ]
+    },
+    "terry": {
+        "name": "Terry",
+        "syllables": [
+            "Terr",
+            "y"
+        ]
+    },
+    "theresa": {
+        "name": "Theresa",
+        "syllables": [
+            "The",
+            "re",
+            "sa"
+        ]
+    },
+    "tiffany": {
+        "name": "Tiffany",
+        "syllables": [
+            "Tiff",
+            "a",
+            "ny"
+        ]
+    },
+    "tina": {
+        "name": "Tina",
+        "syllables": [
+            "Ti",
+            "na"
+        ]
+    },
+    "toni": {
+        "name": "Toni",
+        "syllables": [
+            "Ton",
+            "i"
+        ]
+    },
+    "tonya": {
+        "name": "Tonya",
+        "syllables": [
+            "Ton",
+            "ya"
+        ]
+    },
+    "tracey": {
+        "name": "Tracey",
+        "syllables": [
+            "Tra",
+            "cey"
+        ]
+    },
+    "traci": {
+        "name": "Traci",
+        "syllables": [
+            "Tra",
+            "ci"
+        ]
+    },
+    "tracie": {
+        "name": "Tracie",
+        "syllables": [
+            "Tra",
+            "cie"
+        ]
+    },
+    "tracy": {
+        "name": "Tracy",
+        "syllables": [
+            "Tra",
+            "cy"
+        ]
+    },
+    "tricia": {
+        "name": "Tricia",
+        "syllables": [
+            "Tric",
+            "ia"
+        ]
+    },
+    "trinity": {
+        "name": "Trinity",
+        "syllables": [
+            "Trin",
+            "i",
+            "ty"
+        ]
+    },
+    "valeria": {
+        "name": "Valeria",
+        "syllables": [
+            "Va",
+            "le",
+            "ria"
+        ]
+    },
+    "valerie": {
+        "name": "Valerie",
+        "syllables": [
+            "Val",
+            "e",
+            "rie"
+        ]
+    },
+    "vanessa": {
+        "name": "Vanessa",
+        "syllables": [
+            "Va",
+            "ness",
+            "a"
+        ]
+    },
+    "veronica": {
+        "name": "Veronica",
+        "syllables": [
+            "Ve",
+            "ron",
+            "i",
+            "ca"
+        ]
+    },
+    "vicki": {
+        "name": "Vicki",
+        "syllables": [
+            "Vick",
+            "i"
+        ]
+    },
+    "vickie": {
+        "name": "Vickie",
+        "syllables": [
+            "Vick",
+            "ie"
+        ]
+    },
+    "victoria": {
+        "name": "Victoria",
+        "syllables": [
+            "Vic",
+            "tor",
+            "i",
+            "a"
+        ]
+    },
+    "virginia": {
+        "name": "Virginia",
+        "syllables": [
+            "Vir",
+            "gin",
+            "ia"
+        ]
+    },
+    "wanda": {
+        "name": "Wanda",
+        "syllables": [
+            "Wan",
+            "da"
+        ]
+    },
+    "wendy": {
+        "name": "Wendy",
+        "syllables": [
+            "Wen",
+            "dy"
+        ]
+    },
+    "whitney": {
+        "name": "Whitney",
+        "syllables": [
+            "Whit",
+            "ney"
+        ]
+    },
+    "yolanda": {
+        "name": "Yolanda",
+        "syllables": [
+            "Yo",
+            "lan",
+            "da"
+        ]
+    },
+    "yvette": {
+        "name": "Yvette",
+        "syllables": [
+            "Y",
+            "vette"
+        ]
+    },
+    "yvonne": {
+        "name": "Yvonne",
+        "syllables": [
+            "Y",
+            "vonne"
+        ]
+    },
+    "zoe": {
+        "name": "Zoe",
+        "syllables": [
+            "Zo",
+            "e"
+        ]
+    },
+    "zoey": {
+        "name": "Zoey",
+        "syllables": [
+            "Zo",
+            "ey"
+        ]
+    }
+}

@@ -104,7 +104,7 @@ module.exports = function (grunt) {
      */
     jshint: {
       files: [
-        'src/js/*.js',
+        //'src/js/*.js',
         'Gruntfile.js'
       ],
       options: {
@@ -308,8 +308,8 @@ module.exports = function (grunt) {
     'autoprefixer:dist',
     'cssmin:dist',
     'clean:dist',
-    'jshint',
-    'uglify'
+    'jshint'
+    //'uglify'
   ]);
 
 };
