@@ -10,43 +10,100 @@
 
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="//ajax.googleapis.com" rel="dns-prefetch">
+    <link rel="stylesheet" href="assets/components/foundation.css" />
+    <link rel="stylesheet" href="assets/components/normalize.css" />
     <link href="assets/css/style.min.css" rel="stylesheet">
 
     <script src="assets/components/modernizr.js"></script>
-    <script src="assets/components/underscore.js"></script>
 
   </head>
   <body>
 
-    <header class="header" role="banner">
-      <h1>Celebrity Couple Nicknames</h1>
-    </header>
+    <div class="row">
+      <div class="small-12 columns panel">
+        <h1>Celebrity Couple Nicknames</h1>
+        <h5 class="subheader">
+          Everyone wants a cute couple nickname. Find out which names you're compatible with so you can be like Brangelina, Kimye, and Billary!
+        </h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-8 columns">
+        <h2>Find your matches!</h2>
+        <label for="name">Name</label>
+        <div class="row collapse">
+          <div class="small-9 columns">
+            <input type="text" placeholder="Enter your first name" name="name">
+          </div>
+          <div class="small-3 columns">
+            <button class="postfix" type="button" id="findMatches">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-8 columns" id="results">
+        <table role="grid">
+          <thead>
+            <tr>
+              <th width="25">#</th>
+              <th>Name</th>
+              <th width="130">Compatibility</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>James</td>
+              <td>97%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="small-3 columns end">
+        <select id="match-genders">
+          <option value="female">Female names</option>
+          <option value="male">Male names</option>
+          <option value="both">Both</option>
+        </select>
+      </div>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="small-12 columns">
+        <h2>Have someone in mind?</h2>
+        <p>Enter your names for cute name suggestions!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-8 columns">
+        <div class="row">
+          <div class="small-6 columns">
+            <label for="name1">Name</label>
+            <input type="text" name="name1" placeholder="Enter a name" />
+          </div>
+          <div class="small-6 columns">
+            <label for="name2">Name</label>
+            <input type="text" name="name2" placeholder="Enter a name" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-2 columns">
+            <button type="button" id="compareNames">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 columns footer">
+        <hr />
+        <small>Made with ♥ by <a href="http://github.com/jglamine">jglamine</a>.</small>
+      </div>
+    </div>
 
-    <main class="main" role="main">
-      <p>Everyone wants a cute couple nickname. Find out which names you're compatible with so you can be like Brangelina, Kimye, and Everlark!</p>
-
-      <h2>Find your matches!</h2>
-      <label>Enter your first name: <input type="text" name="name"></label>
-      <button type="button" id="findMatches">Submit</button>
-
-      <h2>Have someone in mind?</h2>
-      <p>Enter your names for cute name suggestions!</p>
-      <label>Enter a name: <input type="text" name="name1"></label>
-      <label>Enter a name: <input type="text" name="name2"></label>
-      <button type="button" id="compareNames">Submit</button>
-
-    </main>
-
-    <aside class="sidebar" role="complementary">
-
-    </aside>
-
-    <footer class="footer" role="contentinfo">
-
-    </footer>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/components/jquery.js"><\/script>');</script>
+    <script src="assets/components/foundation.js"></script>
+    <script src="assets/components/underscore.js"></script>
     <script src="assets/js/scripts.min.js"></script>
 
     <script>
