@@ -7,26 +7,71 @@
       return cuteName.getNameModel(name) || cuteName.makeNameModel(name);
     };
 
-    $('#findMatches').click(function(event) {
+    var displayTopNicknames = function(nicknameModels, name) {
+      var nicknameModels = _.sortBy(nicknameModels, function(model) {
+        return -model.score;
+      }).slice(0, 10);
+
+      name = name.toLowerCase();
+
+      var tableBody = $('<tbody/>');
+      _.each(nicknameModels, function(model, index) {
+        if (name !== model.name1.toLowerCase()) {
+          var matchedName = model.name1;
+        } else {
+          var matchedName = model.name2;
+        }
+        var tr = $('<tr/>');
+        tr.append('<td>' + (index + 1) + '.</td>');
+        var td = $('<td>' + model.nickname + '</td>');
+        if (index < 3) {
+          td.addClass('top-result');
+        }
+        td.appendTo(tr);
+        tr.append('<td>' + matchedName + '</td>');
+        tr.append('<td>' + (Math.round(model.score * 1000) / 10) + '%</td>');
+        tableBody.append(tr);
+      });
+      $('#name-results tbody').replaceWith(tableBody);
+
+    };
+
+    $('#name-form').submit(function(event) {
       event.preventDefault();
 
       var name = $("[name='name'").val().trim();
+      var matchGenders = $('#match-genders');
+      $('#selected-name').val(name);
 
       var nameModel = nameToNameModel(name);
       var names;
       if (nameModel.gender === 'male') {
         names = cuteName.names.female;
-      } else if (nameModel.gender === 'female') {
-        names = cuteName.names.male;
+        matchGenders.val('female');
       } else {
         names = cuteName.names.male;
+        matchGenders.val('male');
       }
 
-      var nicknameModels = _.sortBy(cuteName.allNicknames(nameModel, names), function(model) {
-        return -model.score;
-      });
-      console.log(nicknameModels.slice(0, 20), nameModel);
+      var nicknameModels = cuteName.allNicknames(nameModel, names);
+      displayTopNicknames(nicknameModels, name);
+    });
 
+    $('#match-genders').change(function(event) {
+      var name = $("#selected-name").val();
+      var matchGenders = $('#match-genders').val();
+      var names;
+      if (matchGenders === 'male') {
+        names = cuteName.names.male;
+      } else if (matchGenders === 'female') {
+        names = cuteName.names.female;
+      } else {
+        names = _.extend(_.clone(cuteName.names.female), cuteName.names.male);
+      }
+
+      var nameModel = nameToNameModel(name);
+      var nicknameModels = cuteName.allNicknames(nameModel, names);
+      displayTopNicknames(nicknameModels, name);
     });
 
     $('#compareNames').click(function(event) {
@@ -47,7 +92,6 @@
       nicknameModels = _.sortBy(nicknameModels, function(model) {
         return -model.score;
       });
-      console.log(nicknameModels, name1Models, name2Models);
     });
   });
 })(jQuery, window, document);

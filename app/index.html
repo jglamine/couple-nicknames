@@ -30,37 +30,36 @@
     <div class="row">
       <div class="small-8 columns">
         <h2>Find your matches!</h2>
-        <label for="name">Name</label>
-        <div class="row collapse">
-          <div class="small-9 columns">
-            <input type="text" placeholder="Enter your first name" name="name">
+        <form id="name-form">
+          <label for="name">Name</label>
+          <div class="row collapse">
+            <div class="small-9 columns">
+              <input type="text" placeholder="Enter your first name" name="name" />
+            </div>
+            <div class="small-3 columns end">
+              <button class="postfix" type="submit">Submit</button>
+            </div>
           </div>
-          <div class="small-3 columns">
-            <button class="postfix" type="button" id="findMatches">Submit</button>
-          </div>
-        </div>
+        </form>
       </div>
     </div>
     <div class="row">
-      <div class="small-8 columns" id="results">
-        <table role="grid">
+      <div class="small-8 columns">
+        <table id="name-results" role="grid">
           <thead>
             <tr>
-              <th width="25">#</th>
-              <th>Name</th>
+              <th width="50">#</th>
+              <th>Nickname</th>
+              <th>Match</th>
               <th width="130">Compatibility</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1</td>
-              <td>James</td>
-              <td>97%</td>
-            </tr>
           </tbody>
         </table>
       </div>
       <div class="small-3 columns end">
+        <input type="text" class="hidden" value="" id="selected-name" />
         <select id="match-genders">
           <option value="female">Female names</option>
           <option value="male">Male names</option>
