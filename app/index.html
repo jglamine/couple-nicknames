@@ -30,11 +30,17 @@
     <div class="row">
       <div class="small-8 columns">
         <h2>Find your matches!</h2>
-        <form id="name-form">
+        <form id="name-form" data-abide>
           <label for="name">Name</label>
           <div class="row collapse">
             <div class="small-9 columns">
-              <input type="text" placeholder="Enter your first name" name="name" />
+              <input
+                type="text"
+                placeholder="Enter your first name"
+                name="name"
+                required
+                data-abide-validator="inNameDatabase"/>
+              <small class="error">Oops, I don't know this name. Add dashes (-) to tell me where the syllables are.</small>
             </div>
             <div class="small-3 columns end">
               <button class="postfix" type="submit">Submit</button>
@@ -45,18 +51,8 @@
     </div>
     <div class="row">
       <div class="small-8 columns">
-        <table id="name-results" role="grid">
-          <thead>
-            <tr>
-              <th width="50">#</th>
-              <th>Nickname</th>
-              <th>Match</th>
-              <th width="130">Compatibility</th>
-            </tr>
-          </thead>
-          <tbody>
-          </tbody>
-        </table>
+        <ul class="nicknames">
+        </ul>
       </div>
       <div class="small-3 columns end">
         <input type="text" class="hidden" value="" id="selected-name" />
@@ -103,6 +99,8 @@
     <script>window.jQuery || document.write('<script src="assets/components/jquery.js"><\/script>');</script>
     <script src="assets/components/foundation.js"></script>
     <script src="assets/components/underscore.js"></script>
+    <script src="assets/components/handlebars.js"></script>
+    <script src="assets/js/templates.js"></script>
     <script src="assets/js/scripts.min.js"></script>
 
     <script>

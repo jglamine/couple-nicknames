@@ -12,34 +12,33 @@
         return -model.score;
       }).slice(0, 10);
 
-      name = name.toLowerCase();
-
-      var tableBody = $('<tbody/>');
-      _.each(nicknameModels, function(model, index) {
-        if (name !== model.name1.toLowerCase()) {
-          var matchedName = model.name1;
-        } else {
-          var matchedName = model.name2;
-        }
-        var tr = $('<tr/>');
-        tr.append('<td>' + (index + 1) + '.</td>');
-        var td = $('<td>' + model.nickname + '</td>');
-        if (index < 3) {
-          td.addClass('top-result');
-        }
-        td.appendTo(tr);
-        tr.append('<td>' + matchedName + '</td>');
-        tr.append('<td>' + (Math.round(model.score * 1000) / 10) + '%</td>');
-        tableBody.append(tr);
+      var listItems = Handlebars.templates['src/templates/nickname.hbs']({
+        nicknameModels: _.map(nicknameModels, function(model) {
+          return {
+            nickname: model.nickname,
+            name1: model.name1,
+            name2: model.name2,
+            score: Math.round(model.score * 100)
+          };
+        })
       });
-      $('#name-results tbody').replaceWith(tableBody);
 
+      $('.nicknames').html(listItems);
     };
+
+    var clearTopNicknames = function() {
+      $('.nicknames').html("");
+    }
 
     $('#name-form').submit(function(event) {
       event.preventDefault();
 
       var name = $("[name='name'").val().trim();
+      if (name === '') {
+        clearTopNicknames();
+        return;
+      }
+
       var matchGenders = $('#match-genders');
       $('#selected-name').val(name);
 
@@ -53,6 +52,7 @@
         matchGenders.val('male');
       }
 
+      console.log(nameModel);
       var nicknameModels = cuteName.allNicknames(nameModel, names);
       displayTopNicknames(nicknameModels, name);
     });
@@ -92,6 +92,18 @@
       nicknameModels = _.sortBy(nicknameModels, function(model) {
         return -model.score;
       });
+    });
+
+    $(document).foundation( {
+      abide: {
+        validators: {
+          inNameDatabase: function(el, required, parent) {
+            console.log(el, 'element');
+            var name = $(el).val().trim();
+            return name === '' || name.indexOf('-') > -1 || !!cuteName.getNameModel(name);
+          }
+        }
+      }
     });
   });
 })(jQuery, window, document);

@@ -146,6 +146,17 @@ module.exports = function (grunt) {
       }
     },
 
+    handlebars: {
+      compile: {
+        options: {
+          namespace: 'Handlebars.templates'
+        },
+        files: {
+          '<%= project.assets %>/js/templates.js': '<%= project.src %>/templates/*.hbs'
+        }
+      }
+    },
+
     /**
      * Compile Sass/SCSS files
      * https://github.com/gruntjs/grunt-contrib-sass
@@ -259,6 +270,10 @@ module.exports = function (grunt) {
      * Livereload the browser once complete
      */
     watch: {
+      handlebars: {
+        files: '<%= project.src %>/templates/*.hbs',
+        tasks: ['handlebars:compile']
+      },
       concat: {
         files: '<%= project.src %>/js/{,*/}*.js',
         tasks: ['concat:dev', 'jshint']
@@ -292,6 +307,7 @@ module.exports = function (grunt) {
     'cssmin:dev',
     'jshint',
     'concat:dev',
+    'handlebars:compile',
     'connect:livereload',
     'open',
     'watch'
@@ -308,6 +324,7 @@ module.exports = function (grunt) {
     'autoprefixer:dist',
     'cssmin:dist',
     'clean:dist',
+    'handlebars:compile',
     'jshint'
     //'uglify'
   ]);
