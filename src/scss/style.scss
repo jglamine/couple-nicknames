@@ -1,3 +1,21 @@
+@media only screen and (max-width: 40em) {
+	html {
+		font-size: 90%;
+	}
+
+	.nicknames {
+		font-size: 120%
+	}
+}
+
+.nicknames {
+	margin-top: 1rem;
+}
+
+#couple {
+	margin-top: 1rem;
+}
+
 .header {
 	width: 100%;
 	max-width: 100%;
@@ -7,6 +25,7 @@
 
 .footer {
 	color: gray;
+	margin-bottom: 0.3rem;
 }
 
 .hidden {
@@ -14,7 +33,7 @@
 }
 
 .top-result {
-	font-size: 1.1em;
+	font-size: 1.1rem;
 	font-weight: bold;
 }
 
@@ -27,11 +46,11 @@
 }
 
 .nicknames .names {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 
 .nicknames .nickname-details {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 
 .nicknames li {
