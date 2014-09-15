@@ -149,11 +149,6 @@ var cuteName = (function() {
   // score from 0 to 1
   // returns null for invalid nicknames
   function calculateScore(nicknameModel) {
-    // disallow nicknames which are other names
-    if (Names.male[nicknameModel.nickname.toLowerCase()] || Names.female[nicknameModel.nickname.toLowerCase()]) {
-      return null;
-    }
-
     // detect nicknames which have been squashed
     if (nicknameModel.nickname.length !== nicknameModel.prefix.length + nicknameModel.suffix.length) {
       var concat = nicknameModel.prefix + nicknameModel.suffix;

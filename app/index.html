@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
-    <title>FireShell by @toddmotto</title>
+    <title>Couple Nicknames</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
@@ -19,8 +19,8 @@
   </head>
   <body>
 
-    <div class="row">
-      <div class="small-12 columns panel">
+    <div class="row header panel">
+      <div class="small-12 columns">
         <h1>Celebrity Couple Nicknames</h1>
         <h5 class="subheader">
           Everyone wants a cute couple nickname. Find out which names you're compatible with so you can be like Brangelina, Kimye, and Billary!
@@ -38,7 +38,6 @@
                 type="text"
                 placeholder="Enter your first name"
                 name="name"
-                required
                 data-abide-validator="inNameDatabase"/>
               <small class="error">Oops, I don't know this name. Add dashes (-) to tell me where the syllables are.</small>
             </div>
@@ -50,8 +49,8 @@
       </div>
     </div>
     <div class="row">
-      <div class="small-8 columns">
-        <ul class="nicknames">
+      <div class="small-5 columns">
+        <ul id="nicknames-list" class="nicknames">
         </ul>
       </div>
       <div class="small-3 columns end">
@@ -67,26 +66,46 @@
     <div class="row">
       <div class="small-12 columns">
         <h2>Have someone in mind?</h2>
-        <p>Enter your names for cute name suggestions!</p>
+        <p>Enter your names for cute nickname suggestions!</p>
       </div>
     </div>
     <div class="row">
       <div class="small-8 columns">
-        <div class="row">
-          <div class="small-6 columns">
-            <label for="name1">Name</label>
-            <input type="text" name="name1" placeholder="Enter a name" />
+        <form id="couple-form" data-abide>
+          <div class="row">
+            <div class="small-6 columns">
+              <label for="name1">Name</label>
+              <input
+                type="text"
+                name="name1"
+                placeholder="Enter a name"
+                data-abide-validator="inNameDatabase" />
+                <small class="error">Oops, I don't know this name. Add dashes (-) to tell me where the syllables are.</small>
+            </div>
+            <div class="small-6 columns">
+              <label for="name2">Name</label>
+              <input
+                type="text"
+                name="name2"
+                placeholder="Enter a name"
+                data-abide-validator="inNameDatabase" />
+              <small class="error">Oops, I don't know this name. Add dashes (-) to tell me where the syllables are.</small>
+            </div>
           </div>
-          <div class="small-6 columns">
-            <label for="name2">Name</label>
-            <input type="text" name="name2" placeholder="Enter a name" />
+          <div class="row">
+            <div class="small-2 columns">
+              <button type="submit">Submit</button>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="small-2 columns">
-            <button type="button" id="compareNames">Submit</button>
-          </div>
-        </div>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 columns">
+        <h4 id="couple">
+        </h4>
+        <ul class="nicknames" id="couple-nicknames">
+        </ul>
       </div>
     </div>
     <div class="row">

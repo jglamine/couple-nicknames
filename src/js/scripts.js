@@ -3,33 +3,6 @@
   'use strict';
 
   $(function () {
-    var nameToNameModel = function(name) {
-      return cuteName.getNameModel(name) || cuteName.makeNameModel(name);
-    };
-
-    var displayTopNicknames = function(nicknameModels, name) {
-      var nicknameModels = _.sortBy(nicknameModels, function(model) {
-        return -model.score;
-      }).slice(0, 10);
-
-      var listItems = Handlebars.templates['src/templates/nickname.hbs']({
-        nicknameModels: _.map(nicknameModels, function(model) {
-          return {
-            nickname: model.nickname,
-            name1: model.name1,
-            name2: model.name2,
-            score: Math.round(model.score * 100)
-          };
-        })
-      });
-
-      $('.nicknames').html(listItems);
-    };
-
-    var clearTopNicknames = function() {
-      $('.nicknames').html("");
-    }
-
     $('#name-form').submit(function(event) {
       event.preventDefault();
 
@@ -52,10 +25,13 @@
         matchGenders.val('male');
       }
 
-      console.log(nameModel);
       var nicknameModels = cuteName.allNicknames(nameModel, names);
       displayTopNicknames(nicknameModels, name);
     });
+
+    var nameToNameModel = function(name) {
+      return cuteName.getNameModel(name) || cuteName.makeNameModel(name);
+    };
 
     $('#match-genders').change(function(event) {
       var name = $("#selected-name").val();
@@ -74,11 +50,49 @@
       displayTopNicknames(nicknameModels, name);
     });
 
-    $('#compareNames').click(function(event) {
+    var displayTopNicknames = function(nicknameModels, name) {
+      var nicknameModels = _.chain(nicknameModels)
+        .groupBy(function(model) {
+          return model.nickname;
+        })
+        .map(function(models) {
+          return _.max(models, function(model) { return model.score });
+        })
+        .sortBy(function(model) {
+          return -model.score;
+        })
+        .value()
+        .slice(0, 10);
+
+      var listItems = Handlebars.templates['src/templates/nickname.hbs']({
+        nicknameModels: _.map(nicknameModels, function(model) {
+          return {
+            nickname: model.nickname,
+            name1: model.name1,
+            name2: model.name2,
+            score: Math.round(model.score * 100)
+          };
+        })
+      });
+
+      $('#nicknames-list').html(listItems);
+    };
+
+    var clearTopNicknames = function() {
+      $('#nicknames-list').html("");
+    }
+
+    $('#couple-form').submit(function(event) {
       event.preventDefault();
 
-      var names1 = $("[name='name1'").val().trim().split(' ');
-      var names2 = $("[name='name2'").val().trim().split(' ');
+      var names1 = $("#couple-form [name='name1'").val().trim().split(' ');
+      var names2 = $("#couple-form [name='name2'").val().trim().split(' ');
+
+      if (names1[0] === '' || names2[0] === '') {
+        hideCoupleNicknames();
+        return;
+      }
+
       var name1Models = _.map(names1, nameToNameModel);
       var name2Models = _.map(names2, nameToNameModel);
 
@@ -89,16 +103,50 @@
         });
       });
 
-      nicknameModels = _.sortBy(nicknameModels, function(model) {
-        return -model.score;
-      });
+      var fullName1 = _.chain(name1Models)
+                    .pluck('name')
+                    .reduce(function(memo, name) {
+                      return memo + ' ' + name;
+                    })
+                    .value();
+      var fullName2 = _.chain(name2Models)
+                    .pluck('name')
+                    .reduce(function(memo, name) {
+                      return memo + ' ' + name;
+                    })
+                    .value();
+      displayCoupleNicknames(nicknameModels, fullName1, fullName2);
     });
+
+    var hideCoupleNicknames = function() {
+      $('#couple-nicknames').html('');
+      $('#couple').html('');
+    };
+
+    var displayCoupleNicknames = function(nicknameModels, name1, name2) {
+        nicknameModels = _.sortBy(nicknameModels, function(model) {
+          return -model.score;
+        }).slice(0, 10);
+
+      var listItems = Handlebars.templates['src/templates/couple-nickname-list.hbs']({
+        nicknameModels: _.map(nicknameModels, function(model) {
+          return {
+            nickname: model.nickname,
+            name1: model.name1,
+            name2: model.name2,
+            score: Math.round(model.score * 100)
+          };
+        })
+      });
+
+      $('#couple').html(name1 + ' + ' + name2);
+      $('#couple-nicknames').html(listItems);
+    };
 
     $(document).foundation( {
       abide: {
         validators: {
           inNameDatabase: function(el, required, parent) {
-            console.log(el, 'element');
             var name = $(el).val().trim();
             return name === '' || name.indexOf('-') > -1 || !!cuteName.getNameModel(name);
           }
