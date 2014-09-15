@@ -325,8 +325,8 @@ module.exports = function (grunt) {
     'cssmin:dist',
     'clean:dist',
     'handlebars:compile',
-    'jshint'
-    //'uglify'
+    'jshint',
+    'uglify'
   ]);
 
 };
