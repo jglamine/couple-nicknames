@@ -9,6 +9,7 @@ style.min.css
 style.unprefixed.css
 style.prefixed.css
 scripts.min.js
+app/assets/js/templates.js
 
 ## Node.js
 lib-cov
