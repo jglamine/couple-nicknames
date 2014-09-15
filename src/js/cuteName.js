@@ -167,18 +167,18 @@ var cuteName = (function() {
 
     // penalize using the entire name as a prefix
     if (nicknameModel.prefix === nicknameModel.name1) {
-      score *= 0.6;
+      score *= 0.7;
     }
     // penalize short prefixes and suffixes
     if (nicknameModel.prefix.length < 3) {
-      score *= 0.6;
+      score *= 0.75;
     } else if (nicknameModel.prefix.length < 4) {
       score *= 0.99;
     }
     if (nicknameModel.suffix.length < 3) {
-      score *= 0.6;
+      score *= 0.75;
     } else if (nicknameModel.suffix.length < 4) {
-      score *= 0.99;
+      score *= 0.98;
     }
 
     return score;
