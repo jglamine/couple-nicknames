@@ -21,7 +21,13 @@ function program1(depth0,data) {
   return buffer;
   }
 
-  stack1 = helpers.each.call(depth0, (depth0 && depth0.nicknameModels), {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data});
+function program3(depth0,data) {
+  
+  
+  return "\r\n<div>Sorry, I can't find any matches!</div>\r\n<small class='subheader'>Maybe it wasn't meant to be.</small>\r\n\r\n";
+  }
+
+  stack1 = helpers.each.call(depth0, (depth0 && depth0.nicknameModels), {hash:{},inverse:self.program(3, program3, data),fn:self.program(1, program1, data),data:data});
   if(stack1 || stack1 === 0) { buffer += stack1; }
   buffer += "\r\n";
   return buffer;
