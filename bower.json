@@ -10,5 +10,10 @@
     "underscore": "~1.7.0",
     "foundation": "~5.4.3",
     "handlebars": "~1.3.0"
+  },
+  "exportsOverride": {
+    "handlebars": {
+      "js": "handlebars.runtime.js"
+    }
   }
 }

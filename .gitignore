@@ -10,6 +10,10 @@ style.unprefixed.css
 style.prefixed.css
 scripts.min.js
 app/assets/js/templates.js
+app/assets/components
+
+/dist
+.tmp
 
 ## Node.js
 lib-cov

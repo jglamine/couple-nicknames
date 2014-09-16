@@ -50,36 +50,28 @@ module.exports = function (grunt) {
     },
 
     /**
-     * Project banner
-     * Dynamically appended to CSS/JS files
-     * Inherits text from package.json
-     */
-    tag: {
-      banner: '/*!\n' +
-              ' * <%= pkg.name %>\n' +
-              ' * <%= pkg.title %>\n' +
-              ' * <%= pkg.url %>\n' +
-              ' * @author <%= pkg.author %>\n' +
-              ' * @version <%= pkg.version %>\n' +
-              ' * Copyright <%= pkg.copyright %>. <%= pkg.license %> licensed.\n' +
-              ' */\n'
-    },
-
-    /**
      * Connect port/livereload
      * https://github.com/gruntjs/grunt-contrib-connect
      * Starts a local webserver and injects
      * livereload snippet
      */
     connect: {
-      options: {
-        port: 9000,
-        hostname: '*'
-      },
       livereload: {
         options: {
+          port: 9000,
+          hostname: '*',
           middleware: function (connect) {
             return [lrSnippet, mountFolder(connect, 'app')];
+          }
+        }
+      },
+      dist: {
+        options: {
+          port: 9001,
+          hostname: '*',
+          keepalive: true,
+          middleware: function (connect) {
+            return [mountFolder(connect, 'dist')];
           }
         }
       }
@@ -115,7 +107,7 @@ module.exports = function (grunt) {
     /**
      * Concatenate JavaScript files
      * https://github.com/gruntjs/grunt-contrib-concat
-     * Imports all .js files and appends project banner
+     * Imports all .js files
      */
     concat: {
       dev: {
@@ -125,8 +117,22 @@ module.exports = function (grunt) {
       },
       options: {
         stripBanners: true,
-        nonull: true,
-        banner: '<%= tag.banner %>'
+        nonull: true
+      }
+    },
+
+    copy: {
+      html: {
+        src: '<%= project.app %>/index.html',
+        dest: 'dist/index.html'
+      },
+      icon: {
+        src: '<%= project.app %>/favicon.ico',
+        dest: 'dist/favicon.ico'
+      },
+      handlebars: {
+        src: '<%= project.src %>/components/handlebars/handlebars.runtime.js',
+        dest: '<%= project.assets %>/components/handlebars.runtime.js'
       }
     },
 
@@ -136,9 +142,6 @@ module.exports = function (grunt) {
      * Compresses and minifies all JavaScript files into one
      */
     uglify: {
-      options: {
-        banner: '<%= tag.banner %>'
-      },
       dist: {
         files: {
           '<%= project.assets %>/js/scripts.min.js': '<%= project.js %>'
@@ -160,13 +163,12 @@ module.exports = function (grunt) {
     /**
      * Compile Sass/SCSS files
      * https://github.com/gruntjs/grunt-contrib-sass
-     * Compiles all Sass/SCSS files and appends project banner
+     * Compiles all Sass/SCSS files
      */
     sass: {
       dev: {
         options: {
-          style: 'expanded',
-          banner: '<%= tag.banner %>'
+          style: 'expanded'
         },
         files: {
           '<%= project.assets %>/css/style.unprefixed.css': '<%= project.css %>'
@@ -178,6 +180,29 @@ module.exports = function (grunt) {
         },
         files: {
           '<%= project.assets %>/css/style.unprefixed.css': '<%= project.css %>'
+        }
+      }
+    },
+
+    useminPrepare: {
+      html: '<%= project.app %>/index.html',
+      options: {
+        dest: 'dist'
+      }
+    },
+
+    usemin: {
+      html: 'dist/index.html'
+    },
+
+    htmlmin: {
+      dist: {
+        options: {
+          removeComments: true,
+          collapseWhitespace: true,
+        },
+        files: {
+          'dist/index.html': 'dist/index.html'
         }
       }
     },
@@ -211,44 +236,10 @@ module.exports = function (grunt) {
     },
 
     /**
-     * CSSMin
-     * CSS minification
-     * https://github.com/gruntjs/grunt-contrib-cssmin
-     */
-    cssmin: {
-      dev: {
-        options: {
-          banner: '<%= tag.banner %>'
-        },
-        files: {
-          '<%= project.assets %>/css/style.min.css': [
-            '<%= project.src %>/components/normalize-css/normalize.css',
-            '<%= project.assets %>/css/style.unprefixed.css'
-          ]
-        }
-      },
-      dist: {
-        options: {
-          banner: '<%= tag.banner %>'
-        },
-        files: {
-          '<%= project.assets %>/css/style.min.css': [
-            '<%= project.src %>/components/normalize-css/normalize.css',
-            '<%= project.assets %>/css/style.prefixed.css'
-          ]
-        }
-      }
-    },
-
-    /**
      * Build bower components
-     * https://github.com/yatskevich/grunt-bower-task
      */
     bower: {
       dev: {
-        dest: '<%= project.assets %>/components/'
-      },
-      dist: {
         dest: '<%= project.assets %>/components/'
       }
     },
@@ -259,7 +250,7 @@ module.exports = function (grunt) {
      */
     open: {
       server: {
-        path: 'http://localhost:<%= connect.options.port %>'
+        path: 'http://localhost:<%= connect.livereload.options.port %>'
       }
     },
 
@@ -280,7 +271,7 @@ module.exports = function (grunt) {
       },
       sass: {
         files: '<%= project.src %>/scss/{,*/}*.{scss,sass}',
-        tasks: ['sass:dev', 'cssmin:dev', 'autoprefixer:dev']
+        tasks: ['sass:dev', 'autoprefixer:dev']
       },
       livereload: {
         options: {
@@ -303,13 +294,13 @@ module.exports = function (grunt) {
   grunt.registerTask('default', [
     'sass:dev',
     'bower:dev',
+    'copy:handlebars',
     'autoprefixer:dev',
-    'cssmin:dev',
     'jshint',
     'concat:dev',
     'handlebars:compile',
     'connect:livereload',
-    'open',
+    'open:server',
     'watch'
   ]);
 
@@ -319,14 +310,21 @@ module.exports = function (grunt) {
    * Then compress all JS/CSS files
    */
   grunt.registerTask('build', [
+    'copy:html',
+    'copy:icon',
     'sass:dist',
-    'bower:dist',
+    'bower:dev',
+    'copy:handlebars',
     'autoprefixer:dist',
-    'cssmin:dist',
     'clean:dist',
     'handlebars:compile',
-    'jshint',
-    'uglify'
+    //'jshint',
+    'useminPrepare',
+    'concat',
+    'uglify',
+    'cssmin',
+    'usemin',
+    'htmlmin:dist'
   ]);
 
 };
