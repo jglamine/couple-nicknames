@@ -6,7 +6,7 @@
     $('#name-form').submit(function(event) {
       event.preventDefault();
 
-      var name = $("[name='name'").val().trim();
+      var name = $("[name='name']").val().trim();
       if (name === '') {
         clearTopNicknames();
         return;
@@ -85,8 +85,8 @@
     $('#couple-form').submit(function(event) {
       event.preventDefault();
 
-      var names1 = $("#couple-form [name='name1'").val().trim().split(' ');
-      var names2 = $("#couple-form [name='name2'").val().trim().split(' ');
+      var names1 = $("#couple-form [name='name1']").val().trim().split(' ');
+      var names2 = $("#couple-form [name='name2']").val().trim().split(' ');
 
       if (names1[0] === '' || names2[0] === '') {
         hideCoupleNicknames();

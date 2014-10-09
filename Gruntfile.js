@@ -133,7 +133,7 @@ module.exports = function (grunt) {
       handlebars: {
         src: '<%= project.src %>/components/handlebars/handlebars.runtime.js',
         dest: '<%= project.assets %>/components/handlebars.runtime.js'
-      }
+      },
     },
 
     /**
